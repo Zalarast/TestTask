@@ -25,7 +25,3 @@ const start = () => {
         time += 250;
     }
 }
-
-const test = () => {
-    alert("test")
-}
