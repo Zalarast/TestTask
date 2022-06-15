@@ -1,6 +1,6 @@
 const start = () => {
     let time = 250;
-    const elements = document.getElementsByTagName("span");
+    const elements = document.getElementsByClassName("items");
     const cmd = document.getElementsByClassName("console")[0];
     const btn = document.getElementsByClassName("startBtn")[0];
     btn.innerHTML = "in progress";
