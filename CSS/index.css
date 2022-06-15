@@ -1,67 +1,67 @@
 body {
-    height: 100vh;
-    padding: 0;
-    margin: 0;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
 .index {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background-color: rgb(31, 29, 29);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: rgb(31, 29, 29);
 }
 
 .cells {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    row-gap: 5px;
-    column-gap: 5px;
-    width: 40%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 5px;
+  column-gap: 5px;
+  width: 40%;
 }
 
 .items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(68, 68, 233);
-    font-size: larger;
-    color: white;
-    border: 1px solid black;
-    height: 80px;
-    width: 100%;
-    transition: all .5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(68, 68, 233);
+  font-size: larger;
+  color: white;
+  border: 1px solid black;
+  height: 80px;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
 }
 
 .items.revers {
-    transform: scaleY(-1);
+  transform: scaleY(-1);
 }
 
 .functional {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    width: 40%;
-    margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin-top: 10px;
 }
 
 .console {
-    background-color: rgb(68, 68, 233);
-    color: white;
-    height: 100px;
-    width: 100%;
-    resize: none;
-    font-size: larger;
+  background-color: rgb(68, 68, 233);
+  color: white;
+  height: 100px;
+  width: 100%;
+  resize: none;
+  font-size: larger;
 }
 
 .startBtn {
-    margin-top: 10px;
-    color: white;
-    background-color: rgb(68, 68, 233);
-    border: none;
-    padding: 10px;
-    width: 50%;
-    font-size: larger;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(68, 68, 233);
+  border: none;
+  padding: 10px;
+  width: 50%;
+  font-size: larger;
 }
